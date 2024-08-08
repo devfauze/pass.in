@@ -1,5 +1,9 @@
 # pass.in
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/169f888b-d905-4d5d-ba00-ef35649fddbe">
+</p>
+
 O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**. 
 
 A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
@@ -24,18 +28,6 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 - [x] O participante só pode se inscrever em um evento uma única vez;
 - [x] O participante só pode se inscrever em eventos com vagas disponíveis;
 - [x] O participante só pode realizar check-in em um evento uma única vez;
-
-### Requisitos não-funcionais
-
-- [] O check-in no evento será realizado através de um QRCode;
-
-## Banco de dados
-
-Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
-
-### Diagrama ERD
-
-<img src=".github/erd.svg" width="600" alt="Diagrama ERD do banco de dados" />
 
 ### Estrutura do banco (SQL)
 
